@@ -1,4 +1,4 @@
-# 👋 Hi there! I'm Anoushka Nahata
+# 👋 Hi there! I'm Anoushka
 
 I’m a passionate data scientist and aspiring AI expert with a unique blend of engineering precision and business acumen. Currently pursuing a Double Degree in Computer Science (specializing in Data Science) and Business Analytics at Nanyang Technological University (NTU), Singapore, I thrive at the intersection of technology and problem-solving.
 

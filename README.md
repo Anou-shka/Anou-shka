@@ -3,8 +3,9 @@
 I’m a passionate data scientist and aspiring AI expert with a unique blend of engineering precision and business acumen. Currently pursuing a Double Degree in Computer Science (specializing in Data Science) and Business Analytics at Nanyang Technological University (NTU), Singapore, I thrive at the intersection of technology and problem-solving.
 
 ## 💼 Work Experience
-- **Business Analytics Consultant**, Risewell SG (Jan 2025 – Apr 2025)
-   Led a data science framework using PCA, K-Means, and Decision Trees to evaluate ESG transition readiness of 75+ APAC energy firms—supporting $2B+ in sustainable capital reallocation and strategy transformation.
+- **Business Analytics Consultant**, Aon (Jan 2025 – Apr 2025)
+  Led a data science framework using PCA, K-Means, and Decision Trees to assess ESG readiness across 75+ APAC energy firms, enabling $2B+ in capital reallocation and strategy transformation.
+  
 - **Corporate Advisory Intern**, Risewell SG (May 2023 – Jun 2023)  
   Streamlined a pool of 100+ companies, conducted regional analysis, and optimized costs by 10% using data-driven insights.  
 

@@ -4,7 +4,7 @@ I’m a passionate data scientist and aspiring AI expert with a unique blend of 
 
 ## 💼 Work Experience
 - **Business Analytics Consultant**, Risewell SG (Jan 2025 – Apr 2025)
-  Led a data science framework using PCA, K-Means, and Decision Trees to evaluate ESG transition readiness of 75+ APAC energy firms—supporting $2B+ in sustainable capital reallocation and strategy transformation.
+   Led a data science framework using PCA, K-Means, and Decision Trees to evaluate ESG transition readiness of 75+ APAC energy firms—supporting $2B+ in sustainable capital reallocation and strategy transformation.
 - **Corporate Advisory Intern**, Risewell SG (May 2023 – Jun 2023)  
   Streamlined a pool of 100+ companies, conducted regional analysis, and optimized costs by 10% using data-driven insights.  
 

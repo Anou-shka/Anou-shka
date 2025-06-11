@@ -13,11 +13,40 @@ I’m a passionate data scientist and aspiring AI expert with a unique blend of 
   Collaborated on policy development, streamlined over 200 inventory items, and ensured 100% compliance in fixed asset management.  
 
 ## 🔧 Tech Stack
-- **Languages**: Python, C, C++, Java  
-- **Frontend**: HTML, CSS, JavaScript, Bootstrap, React, Flutter
-- **Backend**: Node.js  
-- **Data Science Tools**: MySQL, MongoDB, PowerBI, Tableau, RStudio, and Microsoft Excel
-- **DevOps**: AWS  
+
+**Languages:**  
+Python, Java, C, C++, JavaScript, SQL  
+
+**Frontend Development:**  
+HTML, CSS, Bootstrap, React, Flutter, React Native  
+
+**Backend & Full-Stack:**  
+Node.js, Express.js, REST APIs  
+
+**Data Science & Analytics:**  
+Pandas, NumPy, Scikit-learn, XGBoost, Keras, TensorFlow, PyTorch, MARS, Isolation Forest, Google Colab, Jupyter Notebooks  
+
+**NLP & Text Mining:**  
+GloVe, DeBERTa, tokenization, attention pooling, max pooling, sentiment classification, Transformer models  
+
+**Time Series & Forecasting:**  
+LSTM, ARIMA, regression modelling, scenario simulation  
+
+**Optimization & Modeling:**  
+Linear programming, Excel Solver, simulation modeling  
+
+**Visualization & BI Tools:**  
+Power BI, Tableau, Streamlit, Matplotlib, Seaborn  
+
+**Database & Query Systems:**  
+MySQL, PostgreSQL, MongoDB, ERD design, B+ Trees, Query Execution Plans (QEP), TPC-H  
+
+**DevOps & Cloud:**  
+AWS, Git, GitHub, GitLab, CI/CD (basic), Streamlit deployment, Docker (basic)  
+
+**Productivity & Collaboration:**  
+Microsoft Excel (PowerPivot), Microsoft Office Suite, RStudio, LaTeX, VS Code, Flutter CLI, Trackinte  
+
 
 ## 🚀 Projects  
 

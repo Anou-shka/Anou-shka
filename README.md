@@ -3,6 +3,8 @@
 I’m a passionate data scientist and aspiring AI expert with a unique blend of engineering precision and business acumen. Currently pursuing a Double Degree in Computer Science (specializing in Data Science) and Business Analytics at Nanyang Technological University (NTU), Singapore, I thrive at the intersection of technology and problem-solving.
 
 ## 💼 Work Experience
+- **Business Analytics Consultant**, Risewell SG (Jan 2025 – Apr 2025)
+  Led a data science framework using PCA, K-Means, and Decision Trees to evaluate ESG transition readiness of 75+ APAC energy firms—supporting $2B+ in sustainable capital reallocation and strategy transformation.
 - **Corporate Advisory Intern**, Risewell SG (May 2023 – Jun 2023)  
   Streamlined a pool of 100+ companies, conducted regional analysis, and optimized costs by 10% using data-driven insights.  
 
@@ -17,6 +19,11 @@ I’m a passionate data scientist and aspiring AI expert with a unique blend of 
 - **DevOps**: AWS  
 
 ## 🚀 Projects  
+
+### [**Digital Twins for Infection Risk Modelling in Elevators**](https://github.com/Anou-shka/Digital-Twins) 
+- Developed a real-time Digital Twin system using Python, IoT sensors, and ML models (K-Means, Decision Trees) to classify airborne infection risk zones in elevator cabins.
+- Achieved >90% F1-score in zone classification using environmental data (CO₂, temperature, humidity), enabling actionable ventilation recommendations.
+- Integrated Wells-Riley and statistical models for disease-specific risk estimation (COVID-19, measles, TB), demonstrating potential for scalable public health transformation in built environments.
 
 ### [**Natural Language Processing Sentiment Analysis**](https://github.com/Anou-shka/SC4002_NLP)  
 - Designed and trained RNN-based models, achieving a 66.89% validation accuracy, and improved performance using BiGRU architecture to reach 74.86%.  

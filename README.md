@@ -50,7 +50,7 @@ Microsoft Excel (PowerPivot), Microsoft Office Suite, RStudio, LaTeX, VS Code, F
 
 ## 🚀 Projects  
 
-### [**Portfolio Pulse - Portfolio return and risk dashboard**](https://portfolio-pulse.onrender.com) 
+### [**Portfolio Pulse - Portfolio Return and Risk Dashboard**](https://portfolio-pulse.onrender.com) 
 - Built a production-ready portfolio analytics app in Streamlit with intraday 1-min and nightly EOD updates. Implemented Sharpe, Beta, Tracking Error, Information Ratio, max drawdown, efficient frontier, and Monte Carlo VaR/ES. Added beginner-friendly tooltips and CSV downloads.
 - Engineered an automated and reliable data pipeline: yfinance ingestion to Parquet on a persistent Render disk, New York trading-day logic, a background intraday daemon, and a scheduled EOD updater. Secured access with a simple code for link-only usage.
 - Designed a thoughtful UX and modular codebase. Plotly charts with right-side labels, interactive rolling risk, sector and region diversification, and quick “what-if” scenarios for weights, benchmarks, and time windows. Modular Python packages (metrics_core, metrics_active) and a one-command deploy.

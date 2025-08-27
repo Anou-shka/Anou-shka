@@ -50,6 +50,13 @@ Microsoft Excel (PowerPivot), Microsoft Office Suite, RStudio, LaTeX, VS Code, F
 
 ## 🚀 Projects  
 
+ 
+### [**Credyte – Credit Risk Scoring & Explainability App **](https://github.com/Anou-shka/credyte) 
+- Developed a production-grade Streamlit app for credit default prediction. Integrated logistic regression and gradient boosting models, calibrated PD (probability of default), and banded risk levels. Delivered SHAP-based explainability and analyst-style outputs for transparent decision support.  
+- Engineered an automated feature pipeline: repayment trend slopes, utilization ratios, average paydowns, delinquency history, and bill growth dynamics. Implemented scalable data handling, log-transformations for skewed variables, and model persistence with joblib.  
+- Crafted a modular and recruiter-facing UX. Clean “Prediction & Explainability” tab, side-by-side SHAP force/ waterfall plots, and number-inputs for repayment + prior status. One-command deploy, lightweight dependencies, and a future-ready structure for model retraining and API integration.  
+
+
 ### [**Portfolio Pulse - Portfolio Return and Risk Dashboard**](https://portfolio-pulse.onrender.com) 
 - Built a production-ready portfolio analytics app in Streamlit with intraday 1-min and nightly EOD updates. Implemented Sharpe, Beta, Tracking Error, Information Ratio, max drawdown, efficient frontier, and Monte Carlo VaR/ES. Added beginner-friendly tooltips and CSV downloads.
 - Engineered an automated and reliable data pipeline: yfinance ingestion to Parquet on a persistent Render disk, New York trading-day logic, a background intraday daemon, and a scheduled EOD updater. Secured access with a simple code for link-only usage.

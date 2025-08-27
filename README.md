@@ -51,7 +51,7 @@ Microsoft Excel (PowerPivot), Microsoft Office Suite, RStudio, LaTeX, VS Code, F
 ## 🚀 Projects  
 
  
-### [**Credyte – Credit Risk Scoring & Explainability App **](https://github.com/Anou-shka/credyte) 
+### [**Credyte – Credit Risk Scoring & Explainability App**](https://github.com/Anou-shka/credyte) 
 - Developed a production-grade Streamlit app for credit default prediction. Integrated logistic regression and gradient boosting models, calibrated PD (probability of default), and banded risk levels. Delivered SHAP-based explainability and analyst-style outputs for transparent decision support.  
 - Engineered an automated feature pipeline: repayment trend slopes, utilization ratios, average paydowns, delinquency history, and bill growth dynamics. Implemented scalable data handling, log-transformations for skewed variables, and model persistence with joblib.  
 - Crafted a modular and recruiter-facing UX. Clean “Prediction & Explainability” tab, side-by-side SHAP force/ waterfall plots, and number-inputs for repayment + prior status. One-command deploy, lightweight dependencies, and a future-ready structure for model retraining and API integration.  

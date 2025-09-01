@@ -1,6 +1,12 @@
 # 👋 Hi there! I'm Anoushka
 
-I’m a passionate data scientist and aspiring AI expert with a unique blend of engineering precision and business acumen. Currently pursuing a Double Degree in Computer Science (specializing in Data Science) and Business Analytics at Nanyang Technological University (NTU), Singapore, I thrive at the intersection of technology and problem-solving.
+I’m a data scientist in the making with a strong foundation in engineering and business analytics.  
+Currently pursuing a Double Degree in **Computer Science (Data Science specialisation)** and **Business Analytics** at **Nanyang Technological University (NTU), Singapore**, I enjoy working at the intersection of data, technology, and real-world problem-solving.  
+
+🔹 Passionate about AI, machine learning, and data-driven decision making  
+🔹 Skilled in Python, SQL, and modern data/ML libraries  
+🔹 Building projects that blend technical depth with business impact  
+
 
 ## 💼 Work Experience
 - **Business Analytics Consultant**, Aon (Jan 2025 – Apr 2025)

@@ -7,6 +7,11 @@ Currently pursuing a Double Degree in **Computer Science (Data Science specialis
 🔹 Skilled in Python, SQL, and modern data/ML libraries  
 🔹 Building projects that blend technical depth with business impact  
 
+## Certifications
+- **CFA Level 1 Candidate - Aug 2026** 
+- [**AWS Certified AI Practitioner**](https://www.credly.com/badges/ba38a71f-a0cf-49d1-9468-d91fd1be7f92/linked_in_profile) (Jan 2026 – Jan 2029)
+- [**CFA Investment Foundation Certificate**](https://credentials.cfainstitute.org/f79a9558-1943-48e5-9a3c-851b9257104b) (Oct 2025) 
+
 
 ## 💼 Work Experience
 - **Business Analytics Consultant**, Aon (Jan 2025 – Apr 2025)

@@ -9,7 +9,7 @@ NTU Singapore graduate (2025) with a double degree in **Computer Science** and *
 🔹 A habit of checking my own work: tie-outs, holdouts, and saying what I couldn't verify  
 
 ## 🎓 Credentials
-- **CFA Program** – Level II Candidate (May 2027); [Passed Level I](https://credentials.cfainstitute.org/66763036-be51-4e15-b098-e2f0195a48e1#acc.cAzQ8IHE)(Sep 2026)
+- **CFA Program** – Level II Candidate (May 2027); [Passed Level I](https://credentials.cfainstitute.org/66763036-be51-4e15-b098-e2f0195a48e1#acc.cAzQ8IHE) (Sep 2026)
 - [**CFA Investment Foundations Certificate**](https://credentials.cfainstitute.org/f79a9558-1943-48e5-9a3c-851b9257104b) (Oct 2025)
 - [**AWS Certified AI Practitioner**](https://www.credly.com/badges/ba38a71f-a0cf-49d1-9468-d91fd1be7f92/linked_in_profile) (Jan 2026)
 

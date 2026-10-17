@@ -1,111 +1,88 @@
 # 👋 Hi there! I'm Anoushka
 
-I’m a data scientist in the making with a strong foundation in engineering and business analytics.  
-Currently pursuing a Double Degree in **Computer Science (Data Science specialisation)** and **Business Analytics** at **Nanyang Technological University (NTU), Singapore**, I enjoy working at the intersection of data, technology, and real-world problem-solving.  
+I work at the intersection of **finance, data and AI**: building models, research tools and analysis that hold up to scrutiny.
 
-🔹 Passionate about AI, machine learning, and data-driven decision making  
-🔹 Skilled in Python, SQL, and modern data/ML libraries  
-🔹 Building projects that blend technical depth with business impact  
+NTU Singapore graduate (2025) with a double degree in **Computer Science** and **Business** (Business Analytics and Data Science). CFA Level II candidate.
 
-## Certifications
-- **CFA Level 1 Candidate - Aug 2026** 
-- [**AWS Certified AI Practitioner**](https://www.credly.com/badges/ba38a71f-a0cf-49d1-9468-d91fd1be7f92/linked_in_profile) (Jan 2026 – Jan 2029)
-- [**CFA Investment Foundation Certificate**](https://credentials.cfainstitute.org/f79a9558-1943-48e5-9a3c-851b9257104b) (Oct 2025) 
+🔹 Equity and credit research built on primary sources and reproducible code  
+🔹 Risk modelling, portfolio analytics and machine learning in Python  
+🔹 A habit of checking my own work: tie-outs, holdouts, and saying what I couldn't verify  
 
+## 🎓 Credentials
+- [**CFA Program** – Level II Candidate (May 2027); Passed Level I (Sep 2026)](https://credentials.cfainstitute.org/66763036-be51-4e15-b098-e2f0195a48e1#acc.cAzQ8IHE)
+- [**CFA Investment Foundations Certificate**](https://credentials.cfainstitute.org/f79a9558-1943-48e5-9a3c-851b9257104b) (Oct 2025)
+- [**AWS Certified AI Practitioner**](https://www.credly.com/badges/ba38a71f-a0cf-49d1-9468-d91fd1be7f92/linked_in_profile) (Jan 2026)
 
 ## 💼 Work Experience
-- **Business Analytics Consultant**, Aon (Jan 2025 – Apr 2025)
-  Led a data science framework using PCA, K-Means, and Decision Trees to assess ESG readiness across 75+ APAC energy firms, enabling $2B+ in capital reallocation and strategy transformation.
-  
-- **Corporate Advisory Intern**, Risewell SG (May 2023 – Jun 2023)  
-  Streamlined a pool of 100+ companies, conducted regional analysis, and optimized costs by 10% using data-driven insights.  
+- **Data Analyst – Risk Reporting (Freelance)**, Smriti Cooperative Bank, India (Nov 2025 – Feb 2026)  
+  Built daily monitoring of SMA and NPA loan portfolios with early-warning indicators from customer payment behaviour, and automated portfolio reporting, validation and reconciliation in Python.
 
-- **Process Analyst Intern**, Delta Electronics Int’l (May 2022 – Jul 2022)  
-  Collaborated on policy development, streamlined over 200 inventory items, and ensured 100% compliance in fixed asset management.  
+- **Business Analytics Consultant**, NTU–Aon Consulting Project, Singapore (Jan 2025 – Apr 2025)  
+  Applied ML-based segmentation to financial, operating and transition-risk data for 15+ APAC power companies, with scenario analysis on carbon exposure and low-carbon investment.
+
+- **Corporate Advisory Intern**, Risewell SG, Singapore (May 2023 – Jun 2023)  
+  Researched industries, infrastructure and costs for a proposed economic zone using R and SQL, and recommended data centres as a target industry.
+
+- **Process Analyst Intern**, Delta Electronics Int'l, Singapore (May 2022 – Jul 2022)  
+  Standardised processes through SOPs and governance documentation, and streamlined 200+ inventory and fixed-asset records.
+
+## 🚀 Featured Projects
+
+### [**Delta Electronics (2308.TW) – Initiation of Coverage**](https://github.com/Anou-shka/delta-volts) *(in progress)*
+How much of Taiwan's power and liquid-cooling leader is now an AI bet, and what does the share price assume?
+- Python pipeline extracting five years of audited financials from 39 primary filings, with 920 page-traced source entries and 422 automated tie-out checks.
+- Linked three-statement Excel model (9 sheets, 1,195 formulas) with 18 integrity checks per period, all TRUE, rebuilt and tested in CI on every push.
+- Segment analysis: Infrastructure profit rose from NT$5.5bn to NT$28.4bn in FY2025. I rejected widely quoted AI revenue splits that I couldn't trace to any company document.
+- Next: forecasts, reverse DCF and the written report, after Q3 2026 results.
+
+### [**Ethena (USDe / ENA) – Due Diligence Report**](https://github.com/Anou-shka/Ethena)
+A risk assessment of a synthetic dollar backed by crypto and hedged with short perpetual futures.
+- Rated USDe medium risk and ENA high risk, with a risk register of explicit triggers that would change the view.
+- Showed USDe supply tracks funding rates through three boom-bust cycles, and that the mechanism held through the October 2025 crash (~$8.3B redeemed, no on-chain depeg).
+- Quantified funding risk (reserve covers ~8 weeks at −20% funding), and modelled ENA vesting in Python with self-checks against reported unlocks.
+
+### [**Credyte – Credit Default Risk Model**](https://github.com/Anou-shka/credyte)
+Calibrated probability-of-default model for 30,000 credit card accounts.
+- XGBoost model at 0.78 ROC-AUC on held-out data, against a 0.743 logistic regression baseline. Isotonic calibration cut Brier score by 25%.
+- Found and fixed calibration data leakage that had inflated reported metrics, then rebuilt the pipeline so training, calibration and evaluation never overlap.
+- SHAP explanations per borrower, a Streamlit dashboard, and unit tests in CI to prevent train/serve skew.
+
+### [**Portfolio Pulse – Portfolio Risk Dashboard**](https://portfolio-pulse.onrender.com)
+Deployed risk and optimisation dashboard on live stock, ETF and crypto data.
+- 15+ metrics including Sharpe, Sortino, beta, information ratio, max drawdown, and historical and Monte Carlo VaR/ES.
+- Max-Sharpe and min-variance optimisation (SciPy SLSQP) along the efficient frontier, with covariance shrinkage and asset-level risk contributions.
+- 1-minute intraday view across mixed calendars. Diagnosed and fixed a UTC vs exchange-session bug that zeroed daily returns, and cut memory use to run on a 512 MB instance.
+
+## 🧪 Other Projects
+- [**Digital Twins for Infection Risk in Elevators**](https://github.com/Anou-shka/Digital-Twins): ML on IoT sensor data (CO₂, temperature, humidity) to classify infection-risk zones at >90% F1-score, with Wells-Riley risk estimates.
+- [**NLP Sentiment Analysis**](https://github.com/Anou-shka/SC4002_NLP): fine-tuned DeBERTaV3 to 90.24% test accuracy, after RNN and BiGRU baselines.
+- [**POI Co-occurrence and Next-Location Prediction**](https://github.com/Anou-shka/SC4020_Project_2): Apriori association rules (e.g. 3.49 lift between hair salons and laundry services) and an LSTM next-location model.
+- [**Clustering Algorithms: Comparative Analysis**](https://github.com/lliangmengg/SC4020-Data-Analytics-Mining-Project): K-means, DBSCAN, GMM and agglomerative clustering compared across four dataset patterns.
+- [**Query Execution Plan Optimisation**](https://github.com/FaizRsl/Database_System_Principles_Project_2): PostgreSQL QEP generator and visualiser, reducing query costs by up to 93% on a 6M+ row TPC-H dataset.
+- [**Database System Design**](https://github.com/FaizRsl/Database_System_Principles_Project_1): custom storage engine with B+ tree indexing.
+- [**Restaurant Search and Reservation System**](https://github.com/Anou-shka/SC2006-Software-Eng) and [**FYP Management System**](https://github.com/its-naptime/SC2002-FYPManager): software engineering coursework projects.
 
 ## 🔧 Tech Stack
 
+**Finance & Research:**  
+Three-statement modelling, financial statement analysis, credit risk (PD, calibration), portfolio analytics, VaR/ES, tokenomics and on-chain analysis  
+
 **Languages:**  
-Python, Java, C, C++, JavaScript, SQL  
+Python, SQL, R, Java
 
-**Frontend Development:**  
-HTML, CSS, Bootstrap, React, Flutter, React Native  
+**Data & ML:**  
+pandas, NumPy, SciPy, scikit-learn, XGBoost, PyTorch, SHAP, LSTM, transformers (DeBERTa)  
 
-**Backend & Full-Stack:**  
-Node.js, Express.js, REST APIs  
+**Data & Databases:**  
+PostgreSQL, MySQL, ETL/ELT, PDF data extraction, Dune SQL  
 
-**Data Science & Analytics:**  
-Pandas, NumPy, Scikit-learn, XGBoost, Keras, TensorFlow, PyTorch, MARS, Isolation Forest, Google Colab, Jupyter Notebooks  
+**BI & Apps:**  
+Excel (advanced), Power BI, Tableau, Streamlit, Plotly  
 
-**NLP & Text Mining:**  
-GloVe, DeBERTa, tokenization, attention pooling, max pooling, sentiment classification, Transformer models  
+**Engineering:**  
+Git/GitHub, CI/CD (GitHub Actions), cloud deployment (Render), AWS  
 
-**Time Series & Forecasting:**  
-LSTM, ARIMA, regression modelling, scenario simulation  
-
-**Optimization & Modeling:**  
-Linear programming, Excel Solver, simulation modeling  
-
-**Visualization & BI Tools:**  
-Power BI, Tableau, Streamlit, Matplotlib, Seaborn  
-
-**Database & Query Systems:**  
-MySQL, PostgreSQL, MongoDB, ERD design, B+ Trees, Query Execution Plans (QEP), TPC-H  
-
-**DevOps & Cloud:**  
-AWS, Git, GitHub, GitLab, CI/CD (basic), Streamlit deployment, Docker (basic)  
-
-**Productivity & Collaboration:**  
-Microsoft Excel (PowerPivot), Microsoft Office Suite, RStudio, LaTeX, VS Code, Flutter CLI, Trackinte  
-
-
-## 🚀 Projects  
-
- 
-### [**Credyte – Credit Risk Scoring & Explainability App**](https://github.com/Anou-shka/credyte) 
-- Developed a production-grade Streamlit app for credit default prediction. Integrated logistic regression and gradient boosting models, calibrated PD (probability of default), and banded risk levels. Delivered SHAP-based explainability and analyst-style outputs for transparent decision support.  
-- Engineered an automated feature pipeline: repayment trend slopes, utilization ratios, average paydowns, delinquency history, and bill growth dynamics. Implemented scalable data handling, log-transformations for skewed variables, and model persistence with joblib.  
-- Crafted a modular and recruiter-facing UX. Clean “Prediction & Explainability” tab, side-by-side SHAP force/ waterfall plots, and number-inputs for repayment + prior status. One-command deploy, lightweight dependencies, and a future-ready structure for model retraining and API integration.  
-
-
-### [**Portfolio Pulse - Portfolio Return and Risk Dashboard**](https://portfolio-pulse.onrender.com) 
-- Built a production-ready portfolio analytics app in Streamlit with intraday 1-min and nightly EOD updates. Implemented Sharpe, Beta, Tracking Error, Information Ratio, max drawdown, efficient frontier, and Monte Carlo VaR/ES. Added beginner-friendly tooltips and CSV downloads.
-- Engineered an automated and reliable data pipeline: yfinance ingestion to Parquet on a persistent Render disk, New York trading-day logic, a background intraday daemon, and a scheduled EOD updater. Secured access with a simple code for link-only usage.
-- Designed a thoughtful UX and modular codebase. Plotly charts with right-side labels, interactive rolling risk, sector and region diversification, and quick “what-if” scenarios for weights, benchmarks, and time windows. Modular Python packages (metrics_core, metrics_active) and a one-command deploy.
-
-### [**Digital Twins for Infection Risk Modelling in Elevators**](https://github.com/Anou-shka/Digital-Twins) 
-- Developed a real-time Digital Twin system using Python, IoT sensors, and ML models (K-Means, Decision Trees) to classify airborne infection risk zones in elevator cabins.
-- Achieved >90% F1-score in zone classification using environmental data (CO₂, temperature, humidity), enabling actionable ventilation recommendations.
-- Integrated Wells-Riley and statistical models for disease-specific risk estimation (COVID-19, measles, TB), demonstrating potential for scalable public health transformation in built environments.
-
-### [**Natural Language Processing Sentiment Analysis**](https://github.com/Anou-shka/SC4002_NLP)  
-- Designed and trained RNN-based models, achieving a 66.89% validation accuracy, and improved performance using BiGRU architecture to reach 74.86%.  
-- Implemented a DeBERTaV3 transformer model, fine-tuned on a custom dataset, achieving a test accuracy of 90.24%, significantly outperforming prior models.
-
-### [**Analysis of Co-occurrence Patterns of Points of Interest (POI)**](https://github.com/Anou-shka/SC4020_Project_2)  
-- Utilized the Apriori algorithm to uncover frequent itemsets and association rules, such as a 3.49 lift correlation between Hair Salons and Laundry services in City B.  
-- Built a next-location recommendation system using LSTM models, achieving accurate predictions for user movement patterns. 
-
-### [**Clustering Algorithms: Comparative Analysis**](https://github.com/lliangmengg/SC4020-Data-Analytics-Mining-Project)  
-- Evaluated clustering algorithms (K-means, DBSCAN, GMM, Agglomerative Clustering) across four dataset patterns, achieving an Adjusted Rand Index (ARI) of 1.0 for DBSCAN and GMM.  
-- Demonstrated DBSCAN's robustness in handling noise (ARI: 0.99) and GMM's adaptability to varying densities (Silhouette Score: 0.72).  
-
-### [**Query Execution Plan (QEP) Optimization and Visualization**](https://github.com/FaizRsl/Database_System_Principles_Project_2) 
-- Developed a dynamic QEP generator using PostgreSQL and React, reducing query costs by up to 93% on a 6M+ row TPC-H dataset.  
-- Created an interactive GUI for QEP visualization, enabling non-technical stakeholders to analyze and optimize query performance.  
-
-### [**Database Management System Design and Optimization**](https://github.com/FaizRsl/Database_System_Principles_Project_1) 
-- Built a custom database system with a 100MB storage capacity, using B+ tree indexing for efficient data retrieval across 10,000+ records.  
-- Improved query performance by 25% through memory optimization and incremental indexing techniques.  
-
-### [**Gaystro: Restaurant Search and Reservation System**](https://github.com/Anou-shka/SC2006-Software-Eng)
-- Engineered a web-based application with MongoDB, React, and Node.js, handling over 1,000 concurrent users with a response time of under 5 seconds.  
-- Integrated real-time reservation management, increasing user engagement by 30% through a seamless UI and dynamic booking features.   
-
-### [**Final Year Project Management System (FYPMS)**](https://github.com/its-naptime/SC2002-FYPManager)  
-- Designed a console-based application for managing final-year projects, supporting 200+ users and improving processing efficiency by 40%.  
-- Integrated object-oriented principles and the Entity-Controller-Boundary design pattern for modular and maintainable code.  
- 
 ## 📫 Contact
 - [**Email**](mailto:nahatanoushka@gmail.com)  
 - [**LinkedIn**](https://linkedin.com/in/anoushka-nahata)  
+- [**Website**](https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fanoushkanahata-portfolio.vercel.app%2F%3Futm_source%3Dgithub%26utm_medium%3Dprofile%26utm_campaign%3Dpage&urlhash=-9wo&mt=nZVeC1QCayZOV5itPifV2YDdwbgNjWe0XcUBERGa8qhGqoD50yzG33f-GfUBFvI5mOPMn-8Qp4NHvT4BYVaSsU9p7GY&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9%2B2%2BX%2BDDRxuAXkjhukQp8w%3D%3D)

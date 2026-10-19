@@ -5,26 +5,26 @@ I work at the intersection of **finance, data and AI**: building models, researc
 NTU Singapore graduate (2025) with a double degree in **Computer Science** and **Business** (Business Analytics and Data Science). CFA Level II candidate.
 
 🔹 Equity and credit research built on primary sources and reproducible code  
-🔹 Risk modelling, portfolio analytics and machine learning in Python  
-🔹 A habit of checking my own work: tie-outs, holdouts, and saying what I couldn't verify  
+🔹 Credit risk, portfolio analytics and machine learning in Python  
+🔹 A habit of checking my own work: tie-outs, holdouts, planted-error tests, and saying what I couldn't verify  
 
 ## 🎓 Credentials
-- **CFA Program** – Level II Candidate (May 2027); [Passed Level I](https://credentials.cfainstitute.org/66763036-be51-4e15-b098-e2f0195a48e1#acc.cAzQ8IHE) (Sep 2026)
+- **CFA Program** – Level II Candidate (May 2027); [Passed Level I](https://credentials.cfainstitute.org/66763036-be51-4e15-b098-e2f0195a48e1) (Sep 2026)
 - [**CFA Investment Foundations Certificate**](https://credentials.cfainstitute.org/f79a9558-1943-48e5-9a3c-851b9257104b) (Oct 2025)
 - [**AWS Certified AI Practitioner**](https://www.credly.com/badges/ba38a71f-a0cf-49d1-9468-d91fd1be7f92/linked_in_profile) (Jan 2026)
 
 ## 💼 Work Experience
 - **Data Analyst – Risk Reporting (Freelance)**, Smriti Cooperative Bank, India (Nov 2025 – Feb 2026)  
-  Built daily monitoring of SMA and NPA loan portfolios with early-warning indicators from customer payment behaviour, and automated portfolio reporting, validation and reconciliation in Python.
+  Built automated daily monitoring of SMA and NPA portfolios across 1,500+ loan accounts, replacing a manual Excel process, with early-warning indicators from repayment behaviour and automated validation and reconciliation in Python.
 
 - **Business Analytics Consultant**, NTU–Aon Consulting Project, Singapore (Jan 2025 – Apr 2025)  
-  Applied ML-based segmentation to financial, operating and transition-risk data for 15+ APAC power companies, with scenario analysis on carbon exposure and low-carbon investment.
+  Used PCA and K-Means clustering on financial, operating and transition-risk data to benchmark 15+ APAC power companies, with scenario analysis on carbon exposure and low-carbon investment.
 
 - **Corporate Advisory Intern**, Risewell SG, Singapore (May 2023 – Jun 2023)  
-  Researched industries, infrastructure and costs for a proposed economic zone using R and SQL, and recommended data centres as a target industry.
+  Researched industries, infrastructure and costs for a proposed economic zone using R and SQL, and recommended data centres as the anchor industry.
 
 - **Process Analyst Intern**, Delta Electronics Int'l, Singapore (May 2022 – Jul 2022)  
-  Standardised processes through SOPs and governance documentation, and streamlined 200+ inventory and fixed-asset records.
+  Drafted SOPs and governance documentation for inventory and fixed-asset processes, and cleaned and consolidated 200+ records.
 
 ## 🚀 Featured Projects
 
@@ -35,16 +35,31 @@ How much of Taiwan's power and liquid-cooling leader is now an AI bet, and what 
 - Segment analysis: Infrastructure profit rose from NT$5.5bn to NT$28.4bn in FY2025. I rejected widely quoted AI revenue splits that I couldn't trace to any company document.
 - Next: forecasts, reverse DCF and the written report, after Q3 2026 results.
 
-### [**Ethena (USDe / ENA) – Due Diligence Report**](https://github.com/Anou-shka/Ethena)
+### [**Verity – Multi-Agent Equity Research with Independent Fact-Checking**](https://github.com/Anou-shka/Verity) *(in progress)*
+A researcher–writer–fact-checker pipeline covering Delta's US-listed peers (Vertiv, Eaton, Trane and seven others), where every number must trace to a filing.
+- Data layer built from raw SEC XBRL: about 11% of values rebuilt from other lines and checked against the 10-K, with non-December year-ends, restatements and a stock split handled explicitly.
+- Plain Python with no agent framework, and the model never does arithmetic. Every number carries a source ID back to an XBRL fact and filing accession.
+- An independent fact-checker re-fetches every number. Tested with 900 planted errors, it caught 98.2% with zero false alarms on 7,117 correct values. The main weakness is true numbers described as the wrong metric (87.7% caught).
+- Found and fixed a revision loop that "laundered" fabricated figures into true-looking claims. Includes a pre-launch risk memo mapped to MAS FEAT principles, which recommends not launching yet.
+- Status: headline results use the deterministic writer. LLM-writer runs are built and pending.
+
+### [**Stagecraft – IFRS 9 Expected Credit Loss Engine**](https://github.com/Anou-shka/StageCraft)
+End-to-end expected credit loss engine on Freddie Mac loan-level mortgage data (2005–2019 vintages), spanning the 2008 crisis and COVID.
+- Three-stage staging with a 30-days-past-due backstop, a lifetime-PD significant-increase test and a watchlist, plus cure probation.
+- Macro-linked discrete-time hazard PD model (champion) with a Markov roll-rate challenger; downturn LGD from realised workout losses; amortising EAD with prepayment as a competing exit.
+- Probability-weighted ECL across base, upside and downside scenarios, a severe stress test, and a provision waterfall that reconciles exactly.
+- Mapped to India's SMA/NPA buckets and compared with the RBI's ECL framework. Delivered as a Streamlit dashboard and model documentation.
+
+### [**Ethena (USDe / ENA) – Due Diligence Report**](LINK)
 A risk assessment of a synthetic dollar backed by crypto and hedged with short perpetual futures.
 - Rated USDe medium risk and ENA high risk, with a risk register of explicit triggers that would change the view.
 - Showed USDe supply tracks funding rates through three boom-bust cycles, and that the mechanism held through the October 2025 crash (~$8.3B redeemed, no on-chain depeg).
 - Quantified funding risk (reserve covers ~8 weeks at −20% funding), and modelled ENA vesting in Python with self-checks against reported unlocks.
 
 ### [**Credyte – Credit Default Risk Model**](https://github.com/Anou-shka/credyte)
-Calibrated probability-of-default model for 30,000 credit card accounts.
+Calibrated probability-of-default model on the UCI credit card default dataset (30,000 accounts).
 - XGBoost model at 0.78 ROC-AUC on held-out data, against a 0.743 logistic regression baseline. Isotonic calibration cut Brier score by 25%.
-- Found and fixed calibration data leakage that had inflated reported metrics, then rebuilt the pipeline so training, calibration and evaluation never overlap.
+- Found and fixed calibration data leakage that had inflated earlier metrics, then rebuilt the pipeline so training, calibration and evaluation never overlap.
 - SHAP explanations per borrower, a Streamlit dashboard, and unit tests in CI to prevent train/serve skew.
 
 ### [**Portfolio Pulse – Portfolio Risk Dashboard**](https://portfolio-pulse.onrender.com)
@@ -65,16 +80,19 @@ Deployed risk and optimisation dashboard on live stock, ETF and crypto data.
 ## 🔧 Tech Stack
 
 **Finance & Research:**  
-Three-statement modelling, financial statement analysis, credit risk (PD, calibration), portfolio analytics, VaR/ES, tokenomics and on-chain analysis  
+Three-statement modelling, financial statement analysis, IFRS 9 expected credit loss (PD/LGD/EAD, staging, stress testing), credit risk, portfolio analytics, VaR/ES, tokenomics and on-chain analysis  
+
+**AI & Agents:**  
+Multi-agent LLM pipelines with tool use, LLM evaluation (planted-error testing), AI governance (MAS FEAT)  
 
 **Languages:**  
-Python, SQL, R, Java
+Python, SQL, R, Java  
 
 **Data & ML:**  
-pandas, NumPy, SciPy, scikit-learn, XGBoost, PyTorch, SHAP, LSTM, transformers (DeBERTa)  
+pandas, Polars, NumPy, SciPy, scikit-learn, XGBoost, PyTorch, SHAP, LSTM, transformers (DeBERTa)  
 
 **Data & Databases:**  
-PostgreSQL, MySQL, ETL/ELT, PDF data extraction, Dune SQL  
+PostgreSQL, MySQL, Parquet, SEC XBRL, ETL/ELT, PDF data extraction, Dune SQL  
 
 **BI & Apps:**  
 Excel (advanced), Power BI, Tableau, Streamlit, Plotly  
@@ -85,4 +103,4 @@ Git/GitHub, CI/CD (GitHub Actions), cloud deployment (Render), AWS
 ## 📫 Contact
 - [**Email**](mailto:nahatanoushka@gmail.com)  
 - [**LinkedIn**](https://linkedin.com/in/anoushka-nahata)  
-- [**Website**](https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fanoushkanahata-portfolio.vercel.app%2F%3Futm_source%3Dgithub%26utm_medium%3Dprofile%26utm_campaign%3Dpage&urlhash=-9wo&mt=nZVeC1QCayZOV5itPifV2YDdwbgNjWe0XcUBERGa8qhGqoD50yzG33f-GfUBFvI5mOPMn-8Qp4NHvT4BYVaSsU9p7GY&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9%2B2%2BX%2BDDRxuAXkjhukQp8w%3D%3D)
+- [**Website**](https://anoushkanahata-portfolio.vercel.app)

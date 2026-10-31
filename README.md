@@ -50,7 +50,7 @@ End-to-end expected credit loss engine on Freddie Mac loan-level mortgage data (
 - Probability-weighted ECL across base, upside and downside scenarios, a severe stress test, and a provision waterfall that reconciles exactly.
 - Mapped to India's SMA/NPA buckets and compared with the RBI's ECL framework. Delivered as a Streamlit dashboard and model documentation.
 
-### [**Ethena (USDe / ENA) – Due Diligence Report**](LINK)
+### [**Ethena (USDe / ENA) – Due Diligence Report**](https://github.com/Anou-shka/Ethena) 
 A risk assessment of a synthetic dollar backed by crypto and hedged with short perpetual futures.
 - Rated USDe medium risk and ENA high risk, with a risk register of explicit triggers that would change the view.
 - Showed USDe supply tracks funding rates through three boom-bust cycles, and that the mechanism held through the October 2025 crash (~$8.3B redeemed, no on-chain depeg).
